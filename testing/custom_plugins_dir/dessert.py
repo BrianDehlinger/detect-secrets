@@ -14,7 +14,7 @@ class DessertDetector(RegexBasedDetector):
 
     denylist = (
         re.compile(
-            r"(reese's peanut butter chocolate cake cheesecake|sweet potato casserole)",
+            r"(sweet potato)",
             re.IGNORECASE,
         ),
     )
